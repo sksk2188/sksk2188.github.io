@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Personal OpenMausBot Google Drive output integration, data use and privacy information.">
+<meta name="theme-color" content="#ffffff">
+<meta name="robots" content="index, follow">
+<title>首頁 | OpenMausBot Drive Output</title>
+<link rel="canonical" href="https://sksk2188.github.io/">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="container topbar">
+<a class="brand" href="index.html" aria-label="OpenMausBot Drive Output 首頁"><span class="brandmark" aria-hidden="true">OM</span><span>OpenMausBot Drive Output</span></a>
+<nav aria-label="主要導覽"><a href="index.html" aria-current="page">首頁 / Home</a><a href="privacy.html">隱私權政策 / Privacy</a><a href="terms.html">服務條款 / Terms</a></nav>
+</div></header>
+<main class="container"><section class="hero">
+<span class="pill">Private / Personal-use integration</span>
+<div class="eyebrow">Google Drive Integration Information</div>
+<h1>讓私人 AI 助理<br>安全地保存產出</h1>
+<p class="lead">OpenMausBot Drive Output 是供單一使用者自架 OpenMausBot 使用的 Google Drive 輸出整合。使用者核准後，助理可以將產生的文字檔案儲存到本人 Google Drive 的指定資料夾。</p>
+<p class="note">This is an independently configured personal-use integration, not an official Google product or a public OpenMausBot service.</p>
+<a class="primary-link" href="privacy.html">查看資料使用方式 <span aria-hidden="true">→</span></a>
+</section>
+<section class="grid" aria-label="主要功能">
+<article class="card"><div class="eyebrow">01 — Purpose</div><h2>限定用途的 Drive 輸出</h2><p>僅在使用者確認後，將助理產生的 <strong>TXT、Markdown、JSON</strong> 文字檔儲存到 Google Drive 的 <strong>OMB USE</strong> 資料夾。</p></article>
+<article class="card"><div class="eyebrow">02 — Permissions</div><h2>最小授權範圍</h2><p>只申請 <code>drive.file</code>，用來建立及存取由此應用程式建立或獲授權的檔案；不要求整個 Google Drive 的完整權限。</p></article>
+<article class="card"><div class="eyebrow">03 — Local-first</div><h2>自架主機保存授權</h2><p>OAuth 授權由使用者親自完成，授權憑證保存在使用者控制的本機電腦／NAS；本公開說明網站不收集憑證。</p></article>
+<article class="card"><div class="eyebrow">04 — Approval</div><h2>上傳前需要確認</h2><p>Google Drive 寫入由使用者個別同意；不提供任意檔案刪除、分享管理或自動上傳 NAS 原始檔案的能力。</p></article>
+</section>
+<section class="card section-gap">
+<h2>資料會如何流動？</h2>
+<p>使用者與私人 AI 助理對話 → 核准「儲存產生的文字」→ 自架連接器使用 Google Drive API，把文字檔寫入已指定的雲端資料夾。</p>
+<div class="subtle-box">本頁僅提供 OAuth 應用資訊，並非登入入口。Google 登入與授權會在 Google 官方頁面進行；不需要在本網站輸入 Google 密碼。</div>
+<div class="language"><h3>English summary</h3><p class="muted">OpenMausBot Drive Output is a private, self-hosted connector that lets one user approve uploads of AI-generated text documents to a dedicated folder in their own Google Drive. It uses only the <code>drive.file</code> scope. It does not provide public account registration, background Drive crawling, Drive sharing/deletion controls, or automatic uploading of original NAS files.</p><p class="muted">For details about OAuth tokens, Google user data, retention, and revocation, see our <a href="privacy.html">Privacy Policy</a>.</p></div>
+</section></main>
+<footer><div class="container foot"><span>© 2026 OpenMausBot Drive Output · Personal-use integration</span><span><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:sksk2188@gmail.com">Contact</a></span></div></footer>
+</body></html>
